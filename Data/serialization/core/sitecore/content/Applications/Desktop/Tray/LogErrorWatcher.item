@@ -1,0 +1,121 @@
+----item----
+version: 1
+id: {8F4FDDA6-0152-41C7-8716-7998F55D063E}
+database: core
+path: /sitecore/content/Applications/Desktop/Tray/LogErrorWatcher
+parent: {0BECC482-3E10-4E42-91A5-B8D81832D264}
+name: LogErrorWatcher
+master: {593DCA58-5A88-4464-B2C9-A63DD5CE39A4}
+template: {79E55CB1-FDB0-460A-AB97-B629069F15DA}
+templatekey: Toolbutton
+
+----field----
+field: {95DCE7F7-107B-4E53-BE87-F16E707A5D3F}
+name: Click
+key: click
+content-length: 20
+
+logerrorwatcher:menu
+----field----
+field: {209C346C-7393-4580-AD29-3E245A26C8AB}
+name: Context menu
+key: context menu
+content-length: 0
+
+
+----field----
+field: {0A9EC22E-C3C1-42E4-875D-C31AEAF28216}
+name: Icon
+key: icon
+content-length: 40
+
+Applications/16x16/bullet_ball_green.png
+----field----
+field: {ED097C2E-5CD6-44B5-B71B-188EABD9F167}
+name: ID
+key: id
+content-length: 15
+
+LogErrorWatcher
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 1
+
+0
+----field----
+field: {A791F095-2521-4B4D-BEF9-21DDA221F608}
+name: __Style
+key: __style
+content-length: 15
+
+LogErrorWatcher
+----field----
+field: {F6D8A61C-2F84-4401-BD24-52D2068172BC}
+name: __Originator
+key: __originator
+content-length: 0
+
+
+----version----
+language: en
+version: 1
+revision: d866e4f8-1570-4586-9339-d1eca9e7349e
+
+----field----
+field: {0243B5CA-1A92-4093-9EAD-B4F7B8AD2594}
+name: Header
+key: header
+content-length: 82
+
+<script src='/sitecore/shell/Applications/LogErrorViewer/LogWatcher.js' ></script>
+----field----
+field: {49B67F65-B00E-47E4-AE41-04ED250BD614}
+name: Tool tip
+key: tool tip
+content-length: 15
+
+No Errors found
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20130731T095806
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d866e4f8-1570-4586-9339-d1eca9e7349e
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20130802T180525:635110635258518503
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

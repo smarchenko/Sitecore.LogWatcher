@@ -1,0 +1,86 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore LogErrorWatcher</PackageName>
+      <Author>smar</Author>
+      <Version>0.3.1</Version>
+      <Revision />
+      <License />
+      <Comment />
+      <Attributes />
+      <Readme>Just install with override.
+
+Let smar know if you experience any problems.
+
+New in this release:
+- I have added own log viewer application. Just click on the icon to see new menu command.</Readme>
+      <Publisher />
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/Sitecore.LogWatcher.dll</x-item>
+        <x-item>/bin/Sitecore.LogWatcher.pdb</x-item>
+        <x-item>/sitecore/shell/Applications/LogErrorViewer/LogWatcher.ashx</x-item>
+        <x-item>/sitecore/shell/Applications/LogErrorViewer/LogWatcher.js</x-item>
+        <x-item>/App_Config/Include/LogErrorWatcher.config</x-item>
+        <x-item>/sitecore/shell/Applications/LogErrorViewer/LogMessageViewer.aspx</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Desktop/Tray/LogErrorWatcher/{8F4FDDA6-0152-41C7-8716-7998F55D063E}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/LogMessageViewer/{CABDAF19-0ED2-4D99-A618-C559F65DD8AD}/invariant/0</x-item>
+        <x-item>/core/sitecore/layout/Layouts/Applications/LogMessageViewer/{C1227A0A-E71F-4950-929F-52871B47C035}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>
