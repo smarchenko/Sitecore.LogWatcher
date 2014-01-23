@@ -20,6 +20,7 @@ namespace Sitecore.LogWatcher.Services
     /// </summary>
     public class LogWatcher : IHttpHandler
     {
+        [Serializable]
         public class MessageDetails
         {
             public LogNotificationLevel Level { get; set; }
