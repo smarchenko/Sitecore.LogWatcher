@@ -8,6 +8,7 @@ namespace Sitecore.LogWatcher.Commands
     using Sitecore.Shell.Framework.Commands;
     using Sitecore.Web.UI.Sheer;
 
+    [Serializable]
     public class ClearCommand : Command
     {
         public override void Execute(CommandContext context)

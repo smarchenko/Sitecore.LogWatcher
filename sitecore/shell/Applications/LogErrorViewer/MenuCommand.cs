@@ -12,6 +12,7 @@ namespace Sitecore.LogWatcher.Commands
     using Sitecore.Web.UI.HtmlControls;
     using Sitecore.Web.UI.Sheer;
 
+    [Serializable]
     public class MenuCommand : Command
     {
         public override void Execute(CommandContext context)

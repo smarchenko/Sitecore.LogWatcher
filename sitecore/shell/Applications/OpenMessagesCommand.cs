@@ -8,7 +8,7 @@ using Sitecore.Shell.Framework.Commands;
 
 namespace Sitecore.LogWatcher.Commands
 {
-
+    [Serializable]
     public class OpenMessagesCommand : Command
     {
         public override void Execute(CommandContext context)
